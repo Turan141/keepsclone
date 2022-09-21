@@ -37,11 +37,7 @@ class KeepsStore {
   // keeps = "dd"
 
   constructor() {
-    makeAutoObservable(this, {
-      keeps: observable,
-      filter: observable,
-      filteredKeeps: computed,
-    })
+    makeAutoObservable(this)
   }
 
   addKeep(note) {
