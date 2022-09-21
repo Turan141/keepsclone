@@ -1,18 +1,18 @@
 .workspace_main {
- display: flex;
- flex-direction: column;
- width: 70%;
- padding: 1rem;
- .workspace_notes {
-  display: grid;
-  padding: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
- }
- .workspace_input {
   display: flex;
-  justify-content: center;
-  input {
-   width: 400px;
+  flex-direction: column;
+  width: 70%;
+  padding: 1rem;
+  .workspace_notes {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
- }
+  .workspace_input {
+    display: flex;
+    justify-content: center;
+    input {
+      width: 400px;
+    }
+  }
 }
